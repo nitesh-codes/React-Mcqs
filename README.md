@@ -66,7 +66,7 @@ Why is Babel used in JavaScript development?
 - **A)** To manage application state and handle side effects in React applications.
 - **B)** To minify JavaScript code for better performance and faster load times.
 - **C)** To bundle multiple JavaScript files into a single file to improve load times.
-- **D)** To JavaScript code into a backward-compatible version.
+- **D)** To transpile modern JavaScript code into a backward-compatible version.
 
 **Answer: D**
 
