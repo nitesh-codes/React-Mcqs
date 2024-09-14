@@ -61,14 +61,15 @@ Which of the following best describes the behavior of the `useRef` hook?
 ---
 
 ## Question 7
-What is Babel?
+Why is Babel used in JavaScript development?
 
-- **A)** Compiler
-- **B)** Interpreter
-- **C)** Both A & B
-- **D)** None of these
+- **A)** To manage application state and handle side effects in React applications.
+- **B)** To minify JavaScript code for better performance and faster load times.
+- **C)** To bundle multiple JavaScript files into a single file to improve load times.
+- **D)** To JavaScript code into a backward-compatible version.
 
-**Answer: A**
+**Answer: D**
+
 
 ---
 
@@ -76,7 +77,7 @@ What is Babel?
 What is the key difference between Context API and Redux in React for state management?
 
 - **A)** Context API is a state management library, while Redux is built-in to React for managing global states.
-- **B)** Redux uses a single store and strict actions/reducers to update state, while Context API provides a simpler mechanism to pass data across components without props drilling but does not enforce any action/reducer pattern.
+- **B)** Redux uses a single store and strict actions/reducers to update state, while Context API provides a simpler mechanism to pass data across components without props.
 - **C)** Context API supports asynchronous updates natively, while Redux requires middleware like thunk or saga.
 - **D)** Context API can manage more complex global states than Redux, making it a better choice for large-scale applications.
 
@@ -98,7 +99,7 @@ In React Native, how does the `FlatList` component optimize rendering compared t
 Which of the following statements is true regarding React Native’s `StyleSheet.create()` function?
 
 - **A)** `StyleSheet.create()` is only a utility for organizing styles but does not improve performance.
-- **B)** `StyleSheet.create()` ensures that styles are created once and are frozen, leading to performance optimizations.
+- **B)** `StyleSheet.create()` ensures that styles are created once and are frozen.
 - **C)** `StyleSheet.create()` allows for dynamic style recalculations on every render, which helps optimize styling for different states.
 - **D)** `StyleSheet.create()` is deprecated in newer versions of React Native.
 
