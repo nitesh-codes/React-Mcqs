@@ -12,25 +12,13 @@ What is the purpose of the `React.memo()` function and how does it work under th
 
 ---
 
-## Question 2
-How can you apply inline styles to a React component?
-
-- **A)** By using the `style` attribute with a JavaScript object
-- **B)** By using the `className` attribute with a CSS class
-- **C)** By importing a CSS file and using the `style` property
-- **D)** By using the `id` attribute and defining styles in an external stylesheet
-
-**Answer: A**
-
----
-
 ## Question 3
 What happens if you forget to include a dependency in the dependency array of a `useEffect` hook?
 
 - **A)** The effect will never run.
 - **B)** The effect will run once and never again, regardless of changes.
-- **C)** The effect will run on every re-render, potentially causing performance issues.
-- **D)** The effect will run only when the component unmounts.
+- **C)** The effect will run on every re-render.
+- **D)** The effect will run only when the component mounts.
 
 **Answer: C**
 
